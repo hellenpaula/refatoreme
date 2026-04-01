@@ -5,8 +5,8 @@ function Cards(props) {
     return(
         <div className="DivCard">
 
-        <h3 className="TituloCard">{props.titulo}</h3>
-        <p className="DescricaoCard">{props.descricao}</p>
+        <h3 className="TituloCard">{props.title}</h3>
+        <p className="DescricaoCard">{props.description}</p>
 
         </div>
     )
