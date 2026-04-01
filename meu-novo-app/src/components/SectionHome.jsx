@@ -1,6 +1,6 @@
 
 
-// import './SectionHome.css'
+import './SectionHome.css'
 
 function SectionHome() {
     return(

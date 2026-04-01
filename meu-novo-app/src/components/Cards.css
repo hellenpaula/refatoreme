@@ -1,0 +1,33 @@
+
+
+.DivCard {
+    max-width: 22rem;
+    background: white;
+    padding: 43px 2px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #00000021;
+
+    @media(min-width: 1300px) {
+       
+        max-width: 16rem;
+    }
+}
+
+.TituloCard {
+    color: #00509e;
+    padding: 0 2px 20px;
+
+    @media(min-width: 1024px) {
+        font-size: 18px;
+    }
+}
+
+.DescricaoCard {
+    font-size: 17px;
+    color: #000000c4;
+    padding: 0px 20px;
+
+    @media(min-width: 1024px) {
+        font-size: 16px;
+    }
+}

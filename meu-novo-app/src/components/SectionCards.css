@@ -1,0 +1,61 @@
+
+
+.SectionCards {
+    background: #f4f7f6;
+    padding: 86px 18px;
+
+    @media(min-width: 645px ) {
+        /* padding: 86px 0px; */
+    }
+}
+
+.TituloSectionCards {
+    color: #003366;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 0 2px 78px;
+}
+
+.ContainerCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px;
+    justify-content: center;
+    width: 100%;
+
+    @media(min-width: 1208px) {
+        justify-content: center;
+    }
+}
+/* 
+.DivCard {
+    max-width: 22rem;
+    background: white;
+    padding: 43px 2px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #00000021;
+
+    @media(min-width: 1300px) {
+       
+        max-width: 16rem;
+    }
+}
+
+.TituloCard {
+    color: #00509e;
+    padding: 0 2px 20px;
+
+    @media(min-width: 1024px) {
+        font-size: 18px;
+    }
+}
+
+.DescricaoCard {
+    font-size: 18px;
+    color: #000000c4;
+    padding: 0px 20px;
+
+    @media(min-width: 1024px) {
+        font-size: 16px;
+    }
+} */

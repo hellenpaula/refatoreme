@@ -1,0 +1,70 @@
+
+
+
+.Header {
+    background: #003366;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px 5px;
+
+    @media (min-width: 1024px) {
+        padding: 29px 5px;
+    }
+    
+}
+
+.nav {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media(min-width: 1024px) {
+        width:83%;
+    }
+}
+
+.ContainerLista {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 14px;
+    flex-wrap: wrap;
+
+    @media(min-width: 1024px) {
+        gap: 31px;
+    }
+    
+}
+
+.TituloHeader {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+
+    @media(min-width: 1024px) {
+        font-size: 33px;
+    }
+}
+
+.LinkItemNav {
+    color: white;
+    
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+
+
+    @media(min-width: 1024px) {
+        font-size: 17px;
+    }
+}
+
+.LinkItemNav:hover {
+    color:rgb(253, 221, 15);
+    transition: 0.3s ease-in-out;
+}
+
+
