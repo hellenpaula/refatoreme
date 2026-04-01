@@ -6,11 +6,18 @@
     padding: 43px 2px;
     border-radius: 10px;
     box-shadow: 0px 2px 8px #00000021;
-
+    transition: 0.3s ease-in-out;
     @media(min-width: 1300px) {
        
         max-width: 16rem;
     }
+}
+
+.DivCard:hover {
+    /* position: relative;
+    top: -5px;
+    transition: 0.5s ease-in-out; */
+    transform: translateY(-5px);
 }
 
 .TituloCard {
@@ -31,3 +38,5 @@
         font-size: 16px;
     }
 }
+
+

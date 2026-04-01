@@ -16,7 +16,7 @@ function SectionCards() {
 
             <Cards titulo='IA & Game Dev' descricao='Desenvolvimento de jogos integrados com algoritmos de Inteligência Artificial.'/>
 
-            <Cards titulo='Engenharia de Dados' descricao='Estruturação de dashboards em Power BI e modelagem de dados para tomada de decisão.' id='card4'/>
+            <Cards titulo='Engenharia de Dados' descricao='Estruturação de dashboards em Power BI e modelagem de dados para tomada de decisão.'/>
 
         </div>
 
