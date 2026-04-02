@@ -39,12 +39,12 @@ function SectionPlanos() {
     ]
 
     return(
-        <section className="SectionPlanos">
+        <section className="SectionPlanos" id="plans">
             <h2 className="TituloSectionCards TituloSectionCardsPlanos">Planos</h2>
             <h3 className="SubtituloSectionPlanos">Escolha o plano ideal para o seu negócio</h3>
             <p className="DescricaoSelectionPlanos">Encontre o plano perfeito e leve seu projeto para o próximo nível. <br/> Temos opções acessíveis para iniciantes até soluções completas para empresas.</p>
 
-            <div className="ContainerCardsPlanos" id="plans">
+            <div className="ContainerCardsPlanos" >
 
             
             {plansData.map((plan) => (
