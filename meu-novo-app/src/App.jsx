@@ -5,6 +5,9 @@ import './App.css'
 import Header from './components/Header.jsx'
 import SectionHome from './components/SectionHome.jsx'
 import SectionCards from './components/SectionCards.jsx'
+import SectionPlanos from './components/SectionPlanos.jsx'
+
+
 import Footer from './components/Footer.jsx'
 
 function App() {
@@ -17,6 +20,7 @@ function App() {
       <main className="SectionContainer">
           <SectionHome />
           <SectionCards />
+          <SectionPlanos />
       </main>
 
       <Footer />

@@ -1,0 +1,25 @@
+
+.TituloSectionCardsPlanos {
+    padding: 16px 2px 52px;
+}
+
+.SubtituloSectionPlanos {
+    font-size: 29px;
+    font-weight: 600;
+    color: #00509e;
+    padding: 0px 15px;
+    line-height: 29px;
+}
+
+.DescricaoSelectionPlanos {
+    color: #000000ba;
+    padding: 17px 2px 64px;
+    font-size: 17px;
+}
+
+.ContainerCardsPlanos {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

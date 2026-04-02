@@ -9,7 +9,7 @@ function Header() {
                 <ul className="ContainerLista">
                     <li><a href="#home" className="LinkItemNav">Início</a></li>
                     <li><a href="#services" className="LinkItemNav">Serviços</a></li>
-                    <li><a href="#contact" className="LinkItemNav">Contato</a></li>
+                    <li><a href="#plans" className="LinkItemNav">Planos</a></li>
                 </ul>
 
             </nav>

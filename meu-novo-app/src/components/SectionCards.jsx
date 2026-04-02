@@ -41,6 +41,8 @@ function SectionCards() {
                     description={service.description}
                 />
             ))}
+
+            
             
 {/* Estrutura que criei no início para aplicação dos cards sem o .map():
 

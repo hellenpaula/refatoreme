@@ -1,0 +1,98 @@
+
+.DivCardPlanos {
+    background: #eeeeee;
+    width: 18rem;
+    /* height: 27rem; */
+    border-radius: 10px;
+    text-align: start;
+    padding: 2px 24px 25px 41px;
+    margin: 0px 8px;
+    box-shadow: 0px 2px 10px #00000026;
+    transition: 0.3s ease;
+
+
+    @media(min-width: 1000px) {
+        padding: 7px 16px 45px 50px;
+    }
+}
+
+.DivCardPlanos:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+
+
+.TituloCardPlanos {
+    font-size: 20px;
+    padding: 16px 0px 5px;
+}
+
+.PrecoCardPlanos {
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(253, 221, 15);
+}
+
+.TituloAreaTextoCardPlanos {
+    font-size: 15px;
+    padding: 12px 0px 3px;
+}
+
+.TextoAreaTextoCardPlanos {
+    padding: 0px 0px 6px;
+    font-size: 14px;
+}
+
+
+.ListaBeneficiosCardsPlanos {
+    margin: 0 0 13px;
+}
+
+.ItemBeneficiosCardPlanos  {
+    font-size: 15px;
+}
+
+
+.BotaoCardPlanos{
+    padding: 8px 33px;
+    background-color: rgb(253, 221, 15);
+    border:none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 18px 0px 0px -15px;
+    transition: 0.3s ease-in-out;
+
+    @media(min-width: 1000px) {
+        margin: 11px 0px 0px -15px;
+    }
+    
+}
+
+.BotaoCardPlanos:hover {
+    filter: brightness(95%);
+    transition: 0.3s ease-in-out;
+}
+
+#elemento2 {
+    background-color: #222;
+    color: rgba(255, 255, 255, 0.832);
+    box-shadow: 0px 2px 14px #0000003d;
+
+    @media(min-width: 1000px) {
+        padding: 7px 16px 0px 50px;
+    }
+    
+
+
+}
+
+
+#elemento2 .ListaBeneficiosCardsPlanos {
+   margin: 0 0 29px;
+}
+
+#elemento2 .BotaoCardPlanos:hover {
+    filter: brightness(90%);
+    
+}

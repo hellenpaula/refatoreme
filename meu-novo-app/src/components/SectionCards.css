@@ -1,7 +1,6 @@
 
 
 .SectionCards {
-    background: #f4f7f6;
     padding: 86px 18px;
 
     @media(min-width: 645px ) {
