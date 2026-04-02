@@ -2,13 +2,13 @@ import { useState } from 'react'
 import './App.css'
 
 // components:
-import Header from './components/Header.jsx'
-import SectionHome from './components/SectionHome.jsx'
-import SectionCards from './components/SectionCards.jsx'
-import SectionPlanos from './components/SectionPlanos.jsx'
+import Header from './components/Header/Header.jsx'
+import SectionHome from './components/SectionHome/SectionHome.jsx'
+import SectionCards from './components/SectionCards/SectionCards.jsx'
+import SectionPlanos from './components/SectionCardsPlanos/SectionPlanos.jsx'
 
 
-import Footer from './components/Footer.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
