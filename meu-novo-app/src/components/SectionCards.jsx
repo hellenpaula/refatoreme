@@ -41,7 +41,9 @@ function SectionCards() {
                     description={service.description}
                 />
             ))}
-{/*         
+            
+{/* Estrutura que criei no início para aplicação dos cards sem o .map():
+
             <Cards titulo='UI/UX Design' descricao='Criação de interfaces intuitivas, acessíveis e focadas na experiência do usuário.' /> */}
 {/* 
             <Cards titulo='Infraestrutura AWS' descricao='Arquitetura, deploy e manutenção de soluções escaláveis na nuvem.'/> */}
