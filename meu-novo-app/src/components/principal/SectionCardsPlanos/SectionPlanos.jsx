@@ -1,7 +1,7 @@
 
 import "./SectionPlanos.css"
 
-import CardsPlanos from "./CardsPlanos.jsx";
+import CardsPlanos from './CardsPlanos.jsx';
 
 function SectionPlanos() {
 
